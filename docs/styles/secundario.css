@@ -4,7 +4,7 @@
 }
 
 .secundario__fundo {
-    background: none;
+    background: url("../img/pexels-alleksana-4113890.jpg") center / cover no-repeat;
 }
 
 .secundario__descricao {
