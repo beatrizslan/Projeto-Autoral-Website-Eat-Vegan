@@ -1,12 +1,12 @@
 .contato {
     background: var(--cor-botao-secundario-hover) bottom / cover no-repeat;
-    height: 40vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 5em 1em;
+    padding: 4em 1em;
 }
 
 .contato__escrito__titulo {
