@@ -14,7 +14,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 5em 1em 2em 1em;
+    padding-top: 3em;
+    margin: 0 1em;
 }
 
 .secundario__descricao__titulo {
