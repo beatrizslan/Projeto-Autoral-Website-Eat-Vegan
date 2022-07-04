@@ -50,6 +50,10 @@
     transform: scale(1.1);
 }
 
+.secundario__mapa {
+    height: 50vh;
+}
+
 .secundario__imagem {
     display: none;
 }
