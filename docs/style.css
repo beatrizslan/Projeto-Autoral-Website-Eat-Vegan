@@ -1,0 +1,23 @@
+@import url("styles/principal.css");
+@import url("styles/secundario.css");
+@import url("styles/contato.css");
+@import url("styles/rodape.css");
+
+:root {
+    --cor-de-fundo: #EDEEF3;
+    --preto-principal: #000000;
+    --cinza-secundario: #b6b6b6;
+    --fonte-titulo: "Cinzel";
+    --fonte-principal: "Roboto";
+    --cor-bordas-botao: rgba(0, 0, 0, 0.61);
+    --cor-botao-secundario: rgba(155, 155, 155, 0.514);
+    --cor-botao-secundario-hover: rgba(155, 155, 155, 0.26);
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--preto-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+}
