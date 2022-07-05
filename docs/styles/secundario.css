@@ -91,4 +91,8 @@
         display: block;
         width: 500px;
     }
+
+    .secundario__mapa {
+        height: 400px;
+    }
 }
