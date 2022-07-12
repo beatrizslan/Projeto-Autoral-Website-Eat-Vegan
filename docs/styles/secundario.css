@@ -83,6 +83,10 @@
         margin: 0 3rem;
     }
 
+    .secundario__descricao {
+        background: none;
+    }
+
     .secundario__descricao__desktop {
         margin: 0 2em;
     }
