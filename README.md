@@ -1,6 +1,6 @@
 # Autoral - Desenvolvimento do Projeto Website Eat Vegan
 
-Desenvolvimento próprio do design e codificação do projeto website [Eat Vegan](https://beatrizslan.github.io/Projeto-Website-Vegan/).
+Desenvolvimento próprio do design e codificação do projeto website [Eat Vegan](https://beatrizslan.github.io/Projeto-Autoral-Website-Eat-Vegan/).
 
 ## Indíce
 
@@ -29,7 +29,7 @@ O desafio foi construir este projeto por inteiro, incluindo o design e layout. O
 ### Links
 
 - URL da solução: [Index](https://github.com/beatrizslan/Projeto-Website-Vegan/blob/main/docs/index.html)
-- URL do site: [Site](https://beatrizslan.github.io/Projeto-Website-Vegan/)
+- URL do site: [Site](https://beatrizslan.github.io/Projeto-Autoral-Website-Eat-Vegan/)
 
 ## Meu processo
 
@@ -84,5 +84,5 @@ body {
 
 ### Autor
 
-- Website - [Beatriz Slan](https://beatrizslan.github.io/Projeto-Website-Vegan/)
+- Website - [Beatriz Slan](https://beatrizslan.github.io/Projeto-Autoral-Website-Eat-Vegan/)
 - Linkedin - [in/beatriz-slan](https://www.linkedin.com/in/beatriz-slan-2324a4173/)
