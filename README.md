@@ -4,14 +4,19 @@ Desenvolvimento próprio do design e codificação do projeto website [Eat Vegan
 
 ## Indíce
 
-Visão Geral | [Desafio](#desafio) | [Screenshot](#screenshot) | [Links](#links)
----|---|---|---
+**Visão Geral**
+>[Desafio](#desafio) |
+>[Screenshot](#screenshot) |
+>[Links](#links)
 
-Meu Processo | [Construído com](#construído-com) | [O que eu aprendi](#o-que-eu-aprendi) | [Recursos úteis](#recursos-úteis)
----|---|---|---
 
-Considerações Finais | [Autor](#autor)
----|---
+**Meu Processo**
+>[Construído com](#construído-com) | 
+>[O que eu aprendi](#o-que-eu-aprendi) | 
+>[Recursos úteis](#recursos-úteis)
+
+**Considerações Finais** 
+>[Autor](#autor)
 
 ## Visão Geral
 
