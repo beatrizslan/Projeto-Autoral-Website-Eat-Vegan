@@ -1,5 +1,6 @@
 .principal {
-    background: url("../img/cabecalho.jpg") center / cover no-repeat;
+    background: url("../img/cabecalho-desktop.jpg") 90% / cover no-repeat;
+    padding: 0 1rem;
 }
 
 .principal__descricao {
@@ -8,8 +9,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 0 1em;
-    height: 100vh;
+    gap: 0.5rem;
+    height: 80vh;
 }
 
 .principal__descricao__logo {
@@ -20,30 +21,27 @@
 .principal__descricao__titulo {
     color: var(--preto-principal);
     font-family: var(--fonte-titulo);
-    font-size: 22px;
+    font-size: 30px;
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: 1.5px;
 }
 
 .principal__descricao__subtitulo {
     color: var(--preto-principal);
     font-family: var(--fonte-titulo);
     font-size: 20px;
-    font-weight: 700;
-    letter-spacing: 1.5px;
     line-height: 1.2;
-    padding-bottom: 1em;
+    font-weight: 700;
+    padding-bottom: 0.7rem;
 }
 
 .descricao__principal__botao {
     background-color: transparent;
     border: 1px solid var(--cor-bordas-botao);
     color: var(--preto-principal);
-    padding: 1em 20%; 
+    padding: 1rem 0;
+    width: 90vw;
     text-decoration: none;
-    letter-spacing: 1.2px;
-    margin-bottom: 1em;
 }
 
 .principal__descricao__botao:hover {
@@ -64,20 +62,37 @@
 
 .principal__descricao__texto {
     color: var(--preto-principal);
-    letter-spacing: 1.5px;
     line-height: 1.5;
 }
 
-@media screen and (min-width: 1024px) {
+/*RESPONSIVO*/
+
+
+@media screen and (min-width: 480px) {
+
     .principal {
-        background: url("../img/cabecalho-desktop.jpg") bottom / cover no-repeat;
         display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        justify-content: center;
+        justify-content: flex-end;
+        padding: 0 3rem;
+    }
+    
+    .descricao__principal__botao {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .principal__descricao__titulo {
+        font-size: 35px;
+    }
+
+    .principal__descricao__subtitulo {
+        font-size: 25px;
     }
 
     .descricao__principal__botao {
-        padding: 1em 35%; 
+        width: 500px;
     }
 }
+
