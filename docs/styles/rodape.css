@@ -5,8 +5,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 2em;
-    margin-top: 2em;
+    padding: 2rem 4rem;
+    margin-top: 4rem;
 }
 
 .rodape__logo {
@@ -27,24 +27,15 @@
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
-    letter-spacing: 1.5px;
 }
 
 .rodape__texto {
     color: var(--preto-principal);
-    font-size: 14px;
-    letter-spacing: 1.2px;
-    line-height: 1.5em;
+    line-height: 1.5;
 }
 
 .rodape__texto__none, .rodape__lista {
     display: none;
-}
-
-@media screen and (min-width: 768px) {
-    .rodape__texto__none {
-        display: block;
-    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -53,6 +44,10 @@
         justify-content: center;
         align-items: center;
         gap: 2em;
+    }
+
+    .rodape__texto__none {
+        display: block;
     }
 
     .lista__link a {

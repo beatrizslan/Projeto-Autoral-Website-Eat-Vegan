@@ -1,5 +1,5 @@
 .principal {
-    background: url("../img/cabecalho-desktop.jpg") 90% / cover no-repeat;
+    background: url("../img/cabecalho-desktop.jpg") bottom right 3rem / cover no-repeat;
     padding: 0 1rem;
 }
 
@@ -74,14 +74,21 @@
         display: flex;
         justify-content: flex-end;
         padding: 0 3rem;
+        background-position: bottom right 6rem;
     }
     
     .descricao__principal__botao {
         width: 400px;
     }
+
+    
 }
 
 @media screen and (min-width: 768px) {
+
+    .principal__descricao {
+        height: 100vh;
+    }
 
     .principal__descricao__titulo {
         font-size: 35px;

@@ -3,16 +3,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
     margin: 2rem;
 }
 
 .secundario__titulo {
     color: var(--preto-principal);
     font-family: var(--fonte-titulo);
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
-    text-transform: uppercase;
     font-weight: 700;
     line-height: 1.2;
     margin-top: 2rem;
@@ -31,6 +30,7 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    box-shadow: 2px 2px 3px rgba(29, 29, 29, 0.219);
 }
 
 .secundario__cards__imagem {
@@ -64,6 +64,13 @@
     transform: scale(1.1);
 }
 
+.secundario__texto {
+    color: var(--preto-principal);
+    line-height: 1.5;
+    padding: 1rem;
+    text-align: center;
+}
+
 /*RESPONSIVO*/
 
 @media screen and (min-width: 480px) {
@@ -80,5 +87,14 @@
 
     .secundario__titulo {
         font-size: 25px;
+        padding-top: 2rem;
+    }
+
+    .secundario__texto {
+        width: 600px;
+    }
+
+    .secundario__mapa {
+        width: 80%;
     }
 }
